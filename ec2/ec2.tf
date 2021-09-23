@@ -19,7 +19,7 @@ resource "aws_instance" "web" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "HelloWorld"
+    Name = "devopsTags"
   }
 }
 
@@ -30,7 +30,7 @@ resource "aws_instance" "web2" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "NewOne"
+    Name = "new instance"
   }
 }
 
